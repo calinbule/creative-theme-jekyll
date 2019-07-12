@@ -58,4 +58,4 @@ setInterval( function(){
     } else {
         i = 0;
     }
-}, 5000 );
+}, 10000 );
