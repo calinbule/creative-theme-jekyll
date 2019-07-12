@@ -351,7 +351,7 @@ body {
 }
 
 .fixed-text {
-    display: block;
+    display: inline-block;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -360,7 +360,7 @@ body {
 }
 
 .word {
-    display: block;
+    display: inline-block;
     color: #00e640;
 }
 
