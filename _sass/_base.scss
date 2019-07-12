@@ -350,6 +350,10 @@ body {
     -webkit-tap-highlight-color: $theme-dark;
 }
 
+.fixed-text {
+    display: inline-block;
+}
+
 .word {
     display: inline-block;
     color: #00e640;
