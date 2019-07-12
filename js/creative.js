@@ -46,3 +46,16 @@
     new WOW().init();
 
 })(jQuery); // End of use strict
+
+
+var words = new Array('processing','analysis','pipeline');
+
+var i = 0;
+setInterval( function(){
+    $( '#rolling' ).empty().append( words[ i ] );
+    if( i < words.length ) {
+        i++;
+    } else {
+        i = 0;
+    }
+}, 5000 );
