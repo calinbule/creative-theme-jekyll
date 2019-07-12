@@ -48,7 +48,7 @@
 })(jQuery); // End of use strict
 
 
-var words = new Array('processing','analysis','pipeline');
+/*var words = new Array('processing','analysis','pipeline');
 
 var i = 0;
 setInterval( function(){
@@ -59,3 +59,4 @@ setInterval( function(){
         i = 0;
     }
 }, 10000 );
+*/
