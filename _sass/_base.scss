@@ -351,17 +351,17 @@ body {
 }
 
 .fixed-text {
-    /*display: inline-block;
+    display: block;
     position: absolute;
     top: 0;
-    bottom: 0;*/
+    bottom: 0;
     left: 0;
-    /*right: 0;*/
+    right: 0;
     width: 100;
 }
 
 .word {
-    /*display: block;*/
+    display: block;
     position: absolute; 
     left: 0;
     width: 100;
@@ -371,9 +371,9 @@ body {
 .word span {
     position: absolute;
     top: 0;
-    /*bottom: 0;
+    bottom: 0;
     left: 0;
-    right: 0;*/
+    right: 0;
     width: 100;
     overflow: hidden;
     animation: animate 8s linear infinite;
