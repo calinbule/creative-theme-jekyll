@@ -350,38 +350,6 @@ body {
     -webkit-tap-highlight-color: $theme-dark;
 }
 
-.fixed-text {
-    display: block;
-    /*position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;*/
-    width: 100;
-    min-width: 100% !important;
-}
-
-.word {
-    display: block;
-    /*position: absolute; 
-    left: 0;*/
-    width: 100;
-    color: #00e640;
-    min-width: 100% !important;
-}
-
-.word span {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100;
-    overflow: hidden;
-    animation: animate 8s linear infinite;
-    opacity: 0;
-}
-
 @keyframes animate {
     0% {
         opacity: 0;
@@ -433,3 +401,35 @@ body {
     margin-bottom: 0;
     font-size: 65px;
 }*/
+
+.fixed-text {
+    display: block;
+    /*position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;*/
+    width: 100;
+    min-width: 100% !important;
+}
+
+.word {
+    display: block;
+    /*position: absolute; 
+    left: 0;*/
+    width: 100;
+    color: #00e640;
+    min-width: 100% !important;
+}
+
+.word span {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100;
+    overflow: hidden;
+    animation: animate 8s linear infinite;
+    opacity: 0;
+}
