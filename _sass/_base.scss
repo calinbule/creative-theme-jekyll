@@ -350,7 +350,7 @@ body {
     -webkit-tap-highlight-color: $theme-dark;
 }
 
-@keyframes animate {
+/*@keyframes animate {
     0% {
         opacity: 0;
         transform: translateY(-50px);
@@ -418,4 +418,4 @@ body {
     overflow: hidden;*/
     animation: animate 10s linear infinite;
     opacity: 0;
-}
+}*/
