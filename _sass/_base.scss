@@ -402,7 +402,7 @@ body {
 .word {
     display: inline-block;
     color: #00e640;
-    /*position: absolute; 
+    position: absolute; 
     left: 0;
     width: 100;
     min-width: 100% !important;
@@ -411,11 +411,11 @@ body {
 .word span {
     position: absolute;
     top: 0;
-    /*bottom: 0;
+    bottom: 0;
     left: 0;
     right: 0;
     width: 100;
-    overflow: hidden;*/
+    overflow: hidden;
     animation: animate 10s linear infinite;
     opacity: 0;
 }*/
