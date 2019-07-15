@@ -201,6 +201,9 @@ header {
                     margin-left: auto;
                     margin-right: auto;
                 }
+                .typewriter-text {
+                    min-height: 159px;
+                }
             }
         }
     }
@@ -422,4 +425,5 @@ body {
 
 a.typewrite {
     color: #19b5fe;
+    text-decoration: none;
 }
