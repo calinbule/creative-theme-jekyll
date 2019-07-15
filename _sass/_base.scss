@@ -207,6 +207,15 @@ header {
             }
         }
     }
+    @media (max-width: 500px) {
+        .header-content {
+            .header-content-inner {
+                h1 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
 }
 
 // Sections
