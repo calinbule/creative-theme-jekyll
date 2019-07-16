@@ -273,6 +273,7 @@ header {
         }
     }
     &:hover {
+        cursor: pointer; 
         .portfolio-box-caption {
             opacity: 1;
         }
