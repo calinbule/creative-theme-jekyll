@@ -462,3 +462,14 @@ a.typewrite {
 .modal-content {
     background-color: #22313f;
 }
+
+.modal-header, .modal-footer {
+    border: none;
+}
+
+.modal-project-name {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    padding: 0 15px;
+}
