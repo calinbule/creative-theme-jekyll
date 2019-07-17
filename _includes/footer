@@ -1,0 +1,11 @@
+
+  <aside class="bg-dark">
+      <div class="container text-center">
+          <div class="call-to-action" id="about">
+                <p class="text-faded">
+                <span class="cubevo">Cub|e|vo Data S.R.L.</span></p>
+                Address: 57 Aurel Vlaicu, Arad, RO, 310350
+                Email: contact@cubevodata.com
+          </div>
+      </div>
+  </aside>
