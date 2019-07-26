@@ -8,7 +8,7 @@ url: "" # the base hostname & protocol for your site
 twitter_username:
 github_username:
 linkedin_username:
-facebook_username:Cubevo-104807524190602
+facebook_username: Cubevo-104807524190602
 
 # Build settings
 markdown: kramdown
