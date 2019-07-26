@@ -10,9 +10,32 @@
           <div id="privacy-tc">
             <p class="footer-tc-copyright">Copyright &copy; 2019 Cubevo Data Concept. All rights reserved </p>
             <p class="footer-bullet">&bull;</p>
-            <a class="footer-tc-privacy" href="privacy.html">Privacy</a>
+            <a class="footer-tc-privacy" data-toggle="modal" data-target="#modal-privacy">Privacy</a>
             <p class="footer-bullet">&bull;</p>
-            <a class="footer-tc-privacy" href="terms-and-conditions.html">Terms and conditions</a>
+            <a class="footer-tc-privacy" data-toggle="modal" data-target="#modal-terms-and-conditions">Terms and conditions</a>
           </div>
       </div>
+    
+         <div class="modal fade" id="modal-privacy" role="dialog">
+          <div class="modal-dialog">
+           <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+                  <div class="modal-project-name">
+                      Privacy
+                  </div>
+                  <hr class="light">
+              </div>
+              <div class="modal-body">
+                <p class="project-description">{% include privacy.html %}</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>                  
+    
+    
   </aside>
