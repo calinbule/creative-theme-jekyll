@@ -455,6 +455,9 @@ a.typewrite {
         color: #6c7a89;
         text-decoration: none;
     }
+    &:visited {
+        color: #d2d7d3;
+    }
 }
 
 .footer-tc-privacy:last-of-type {
