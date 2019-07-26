@@ -445,3 +445,15 @@ a.typewrite {
     margin-right: 20px;
     margin-bottom: 20px;
 }
+
+.footer-tc-privacy {
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+    &:hover {
+        opacity: 1;
+    }
+    &:visited {
+        opacity: 0.5;
+    }
+}
