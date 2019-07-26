@@ -474,4 +474,9 @@ a.typewrite {
 #modal-terms-and-conditions div.modal-dialog {
     margin-top: 50px;
     width: 80%;
+    overflow-y: auto;
+}
+
+#modal-terms-and-conditions div.modal-dialog div.modal-content div.modal-body {
+    overflow-y: auto;
 }
