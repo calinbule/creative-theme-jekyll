@@ -447,13 +447,12 @@ a.typewrite {
 }
 
 .footer-tc-privacy {
+    text-decoration: none;
     display: inline-block;
     margin-right: 20px;
     color: white;
     &:hover {
-        opacity: 1;
-    }
-    &:visited {
         opacity: 0.5;
+        text-decoration: none;
     }
 }
