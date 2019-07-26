@@ -449,7 +449,6 @@ a.typewrite {
 .footer-tc-privacy {
     text-decoration: none;
     display: inline-block;
-    margin-right: 20px;
     color: white;
     &:hover {
         color: #6c7a89;
@@ -460,14 +459,14 @@ a.typewrite {
     }
 }
 
-.footer-tc-privacy:last-of-type {
-    margin-right: 0;
-}
-
-
 .footer-tc-copyright {
     display: inline-block;
-    margin-right: 20px;
     color: white;
     font-size: 14px;
+}
+
+.footer-bullet {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
 }
