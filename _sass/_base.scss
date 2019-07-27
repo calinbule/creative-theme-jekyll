@@ -479,9 +479,12 @@ a.typewrite {
 
 #modal-terms-and-conditions div.modal-dialog {
     margin-top: 50px;
-    /*width: 80%;*/
+    width: 80%;
     overflow-y: initial !important;
-}
+    @media (max-width: 500px) {
+        width: 97%;
+    } 
+} 
 
 #modal-terms-and-conditions div.modal-dialog div.modal-content div.modal-body {
     overflow-y: auto;
@@ -489,6 +492,10 @@ a.typewrite {
     margin-left: auto;
     margin-right: auto;
     height: 500px;
+    @media (max-width: 500px) {
+        width: 97%;
+        font-size: 12px;
+    } 
 }
 
 #modal-privacy div.modal-dialog {
