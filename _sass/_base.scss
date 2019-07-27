@@ -479,6 +479,13 @@ a.typewrite {
     } 
 } 
 
+.footer-bullet:first-of-class {
+    @media (max-width: 500px) {
+        display: none;
+    } 
+} 
+
+
 #modal-terms-and-conditions div.modal-dialog {
     margin-top: 50px;
     width: 80%;
@@ -496,7 +503,7 @@ a.typewrite {
     height: 500px;
     @media (max-width: 500px) {
         width: 97%;
-        font-size: 12px;
+        font-size: 10px;
     } 
 }
 
@@ -512,7 +519,11 @@ a.typewrite {
     margin-left: auto;
     margin-right: auto;
     height: 500px;
-}
+    @media (max-width: 500px) {
+        width: 97%;
+        font-size: 10px;
+    } 
+} 
 
 .clickable {
     cursor: pointer;
