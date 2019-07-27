@@ -491,7 +491,7 @@ a.typewrite {
     width: 80%;
     overflow-y: initial !important;
     @media (max-width: 500px) {
-        width: 97%;
+        width: 98%;
     } 
 } 
 
@@ -502,8 +502,8 @@ a.typewrite {
     margin-right: auto;
     height: 500px;
     @media (max-width: 500px) {
-        width: 97%;
-        font-size: 10px;
+        width: 98%;
+        font-size: 13px;
     } 
 }
 
@@ -511,7 +511,10 @@ a.typewrite {
     margin-top: 50px;
     width: 80%;
     overflow-y: initial !important;
-}
+    @media (max-width: 500px) {
+        width: 98%;
+    } 
+} 
 
 #modal-privacy div.modal-dialog div.modal-content div.modal-body {
     overflow-y: auto;
@@ -520,8 +523,8 @@ a.typewrite {
     margin-right: auto;
     height: 500px;
     @media (max-width: 500px) {
-        width: 97%;
-        font-size: 10px;
+        width: 98%;
+        font-size: 13px;
     } 
 } 
 
