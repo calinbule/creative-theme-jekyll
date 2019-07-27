@@ -473,7 +473,9 @@ a.typewrite {
     margin-left: 10px;
     margin-right: 10px;
     @media (max-width: 500px) {
-        display: none;
+        &:first-of-class {
+            display: none;
+        } 
     } 
 } 
 
