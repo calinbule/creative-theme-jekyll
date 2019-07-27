@@ -463,6 +463,9 @@ a.typewrite {
     display: inline-block;
     color: white;
     font-size: 14px;
+    @media (max-width: 500px) {
+        display: block;
+    } 
 }
 
 .footer-bullet {
