@@ -517,3 +517,9 @@ a.typewrite {
 .clickable {
     cursor: pointer;
 } 
+
+.click-message {
+    @media (max-width: 500px) {
+        display: none;
+    } 
+} 
