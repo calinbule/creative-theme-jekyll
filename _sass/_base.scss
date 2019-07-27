@@ -472,11 +472,6 @@ a.typewrite {
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
-    @media (max-width: 500px) {
-        &:first-of-class {
-            display: none;
-        } 
-    } 
 } 
 
 .footer-bullet:first-of-class {
