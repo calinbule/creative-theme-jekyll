@@ -474,8 +474,8 @@ a.typewrite {
     margin-right: 10px;
 } 
 
-.footer-bullet:first-of-class {
-    @media (max-width: 500px) {
+@media (max-width: 500px) {
+    .footer-bullet:first-of-type {   
         display: none;
     } 
 } 
