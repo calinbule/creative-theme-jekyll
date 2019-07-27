@@ -472,16 +472,19 @@ a.typewrite {
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
+    @media (max-width: 500px) {
+        &:first-of-type {   
+            display: none;
+        } 
+    }  
 } 
 
-@media (max-width: 500px) {
-    .footer-bullet:first-of-type {   
-        display: none;
-    } 
-} 
 
 
-#modal-terms-and-conditions div.modal-dialog {
+
+#modal-terms-and-conditions div.modal-dialog, 
+#modal-privacy div.modal-dialog 
+{
     margin-top: 50px;
     width: 80%;
     overflow-y: initial !important;
@@ -492,31 +495,9 @@ a.typewrite {
     } 
 } 
 
-#modal-terms-and-conditions div.modal-dialog div.modal-content div.modal-body {
-    overflow-y: auto;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 500px;
-    @media (max-width: 500px) {
-        width: 98%;
-        font-size: 13px;
-        height: 300px;
-    } 
-}
-
-#modal-privacy div.modal-dialog {
-    margin-top: 50px;
-    width: 80%;
-    overflow-y: initial !important;
-    @media (max-width: 500px) {
-        width: 96%;
-        margin-left: auto;
-        margin-right: auto;
-    } 
-} 
-
-#modal-privacy div.modal-dialog div.modal-content div.modal-body {
+#modal-terms-and-conditions div.modal-dialog div.modal-content div.modal-body, 
+#modal-privacy div.modal-dialog div.modal-content div.modal-body 
+{
     overflow-y: auto;
     width: 80%;
     margin-left: auto;
