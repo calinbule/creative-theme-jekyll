@@ -473,8 +473,9 @@ a.typewrite {
     margin-left: 10px;
     margin-right: 10px;
     @media (max-width: 500px) {
-        &:first-of-type {   
-            display: none;
+        display: none;
+        &:last-of-type {   
+            display: inline-block;
         } 
     }  
 } 
