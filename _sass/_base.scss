@@ -472,7 +472,10 @@ a.typewrite {
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
-}
+    @media (max-width: 500px) {
+        display: none;
+    } 
+} 
 
 #modal-terms-and-conditions div.modal-dialog {
     margin-top: 50px;
