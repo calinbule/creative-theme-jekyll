@@ -492,6 +492,8 @@ a.typewrite {
     overflow-y: initial !important;
     @media (max-width: 500px) {
         width: 98%;
+        font-size: 13px;
+        height: 300px;
     } 
 } 
 
@@ -504,7 +506,7 @@ a.typewrite {
     @media (max-width: 500px) {
         width: 98%;
         font-size: 13px;
-        height: 400px;
+        height: 300px;
     } 
 }
 
@@ -513,7 +515,9 @@ a.typewrite {
     width: 80%;
     overflow-y: initial !important;
     @media (max-width: 500px) {
-        width: 98%;
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
     } 
 } 
 
@@ -526,7 +530,7 @@ a.typewrite {
     @media (max-width: 500px) {
         width: 98%;
         font-size: 13px;
-        height: 400px;
+        height: 300px;
     } 
 } 
 
