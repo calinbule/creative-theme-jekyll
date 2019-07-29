@@ -523,3 +523,13 @@ a.typewrite {
         display: none;
     } 
 } 
+
+.tap-message {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    @media (max-width: 500px) {
+        display: none;
+    } 
+} 
