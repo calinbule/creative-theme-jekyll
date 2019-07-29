@@ -500,6 +500,9 @@ a.typewrite {
         width: 96%;
         margin-left: auto;
         margin-right: auto;
+    }
+    @media (min-width: 1300px) {
+        width: 1040px;
     } 
 } 
 
