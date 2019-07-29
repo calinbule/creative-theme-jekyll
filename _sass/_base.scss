@@ -529,6 +529,9 @@ a.typewrite {
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 14px;
     @media (max-width: 500px) {
         display: none;
     } 
