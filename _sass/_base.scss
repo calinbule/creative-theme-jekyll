@@ -544,3 +544,15 @@ a.typewrite {
 .tm-dark {
     color: #222;
 }
+
+.tc-privacy p{
+    @media (max-width: 500px) {
+        font-size: 14px;
+    }     
+}
+
+.tc-privacy li{
+    @media (max-width: 500px) {
+        font-size: 12px;
+    }     
+}
