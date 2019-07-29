@@ -466,7 +466,7 @@ a.typewrite {
     display: inline-block;
     color: white;
     font-size: 14px;
-    @media (max-width: 500px) {
+    @media (max-width: 768px) {
         display: block;
     } 
 }
@@ -475,7 +475,7 @@ a.typewrite {
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
-    @media (max-width: 500px) {
+    @media (max-width: 768px) {
         display: none;
         &:last-of-type {   
             display: inline-block;
