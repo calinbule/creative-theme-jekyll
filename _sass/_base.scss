@@ -525,14 +525,14 @@ a.typewrite {
 } 
 
 .tap-message {
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
     font-size: 14px;
-    @media (max-width: 500px) {
+    @media (min-width: 501px) {
         display: none;
     } 
 } 
