@@ -365,10 +365,6 @@ body {
 
 // -- Customization
 
-h1.typewriter-text {
-    text-transform: uppercase;
-}
-
 a.typewrite {
     color: #00e640;
     text-decoration: none;
@@ -558,4 +554,19 @@ a.typewrite {
     @media (max-width: 500px) {
         font-size: 12px;
     }     
+}
+
+#nav-logo {
+    text-transform: none;
+    font-family: roboto;
+    font-size: 30px;
+}
+#nav-logo-e {
+    display: inline-block;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    unicode-bidi: bidi-override;
+    direction: rtl;
 }
