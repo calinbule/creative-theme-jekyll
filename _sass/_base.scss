@@ -271,15 +271,15 @@ header {
                 font-size: 18px;
             }
         }
+        @media (max-width: 600px) {
+            display: none;
+        }
     }
     &:hover {
         cursor: pointer; 
         .portfolio-box-caption {
             opacity: 1;
         }
-    }
-    @media (max-width: 600px) {
-        display: none;
     }
     @media (min-width: 768px) {
         .portfolio-box-caption {
