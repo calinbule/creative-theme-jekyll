@@ -527,14 +527,12 @@ a.typewrite {
     } 
 } 
 
-.tap-message {
+.projects-buttons-mobile {
     position: absolute;
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgba(255,255,255,0.7);
-    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-    font-size: 14px;
     @media (min-width: 501px) {
         display: none;
     } 
