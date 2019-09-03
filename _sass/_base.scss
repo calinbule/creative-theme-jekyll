@@ -580,3 +580,9 @@ a.typewrite {
 .projects-buttons {
     margin-top: 10px;
 }
+
+.portfolio-box-caption {
+        @media (min-width: 501px) {
+            display: none;
+        }
+}
