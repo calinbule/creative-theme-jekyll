@@ -571,3 +571,10 @@ a.typewrite {
     unicode-bidi: bidi-override;
     direction: rtl;
 }
+
+.services-title-wrap {
+    display: inline-block;
+    @media (min-width: 1200px) {
+        display: block;
+    }
+}
