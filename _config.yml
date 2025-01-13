@@ -1,5 +1,5 @@
 # Site settings
-title: Cub|e|vo - A Cubevo Data Company
+title: Cub|e|vo
 email: contact@cubevodata.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: / # the subpath of your site, e.g. /blog/
